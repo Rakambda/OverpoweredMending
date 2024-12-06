@@ -26,11 +26,11 @@ runs {
         systemProperty "forge.enabledGameTestNamespaces", "overpoweredmending"
     }
 
-    data {
-//        taskName "runOMForgeData"
-        workingDirectory.set(project.file("./run/data"))
-        programArguments.addAll '--mod', 'overpoweredmending', '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
-    }
+//    datagen {
+////        taskName "runOMForgeData"
+//        workingDirectory.set(project.file("./run/data"))
+//        programArguments '--mod', 'overpoweredmending', '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+//    }
 }
 
 minecraft {
