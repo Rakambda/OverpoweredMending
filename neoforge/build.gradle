@@ -45,8 +45,6 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 dependencies {
     implementation(libs.neoforge)
     implementation(project(":common"))
-
-    implementation(libs.curiosneoforge)
 }
 
 ext {
