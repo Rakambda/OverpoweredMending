@@ -5,14 +5,14 @@ lombok-version = "1.18.36"
 jetbrains-annotations-version = "26.0.1"
 log4j2-version = "2.24.1"
 
-minecraftVersion = "1.21.3"
+minecraftVersion = "1.21.4"
 fabric-loader-version = "0.16.9"
-fabric-api-version = "0.110.0+1.21.3"
-forge-version = "1.21.3-53.0.25"
-neoforge-version = "21.3.57"
+fabric-api-version = "0.111.0+1.21.4"
+forge-version = "1.21.4-54.0.6"
+neoforge-version = "21.4.9-beta"
 
 # Mod dependencies
-modmenu-version = "12.0.0"
+modmenu-version = "13.0.0-beta.1"
 trinkets-version = "3.10.0"
 cardinal-components-version = "6.2.0"
 
